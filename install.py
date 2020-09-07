@@ -3,9 +3,6 @@ import os
 
 import click
 
-RPM_PATH = '/t2k/users/suvorov/rpm_v2/'
-PREFIX = '/t2k/users/suvorov/centos_v2/'
-
 def resolve(packages):
     """Scan for all possible dependencies."""
     rpms = packages
