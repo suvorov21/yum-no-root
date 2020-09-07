@@ -100,6 +100,13 @@ def main(prefix, rpm_path):
                          'rpm-build', 'subversion', 'swig', 'systemtap'
                          }
 
+
+    if prefix[-1] != '/':
+        prefix += '/'
+
+    if rpm_path[-1] != '/':
+        rpm_path += '/'
+
     packages_ini = packages_devgroup | packages_t2k | packages_dev_latest
     packs = resolve(packages_ini)
     download(packs, rpm_path)
