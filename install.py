@@ -92,6 +92,18 @@ def main(prefix, rpm_path):
                     'glut-devel', 'which', 'man-db'
                     }
 
+    packages_t2k = {'epel-release', 'cmake3', 'python-devel', 'wget',
+                    'ncurses-devel', 'libX11-devel', 'libxml2-devel',
+                    'libXpm-devel', 'libXft-devel', 'libXext-devel',
+                    'libcurl-devel', 'mesa-dri-drivers', 'ed', 'imake',
+                    'krb5-devel', 'tcsh', 'krb5-devel', 'openssl-devel',
+                    'graphviz-devel', 'libXt-devel', 'motif-devel',
+                    'freetype-devel', 'gmp-devel', 'gsl-devel',
+                    'glut-devel', 'which', 'man-db', 'lz4-devel',
+                    'libAfterImage-devel', 'glew-devel', 'cfitsio-devel',
+                    'ftgl-devel', 'davix-devel', 'gl2ps-devel'
+                    }
+
     packages_devgroup = {'bison', 'byacc', 'cscope', 'ctags', 'cvs',
                          'diffstat', 'doxygen', 'flex', 'gcc',
                          'gcc-c++', 'gcc-gfortran', 'gettext', 'git',
